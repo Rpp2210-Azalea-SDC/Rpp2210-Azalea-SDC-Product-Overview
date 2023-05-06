@@ -1,7 +1,10 @@
-const postgresDB = require('database somewhere!!!'); // needs fixing!!!
+const postgresDB = require('./postgreSQL.js');
+
+
 
 const getProductByID = (id, callback) => {
-  postgresDB.query(`select * from product where id = ${id}`)
+  const pool = postgresDB();
+  pool.query(`select * from product where id = ${id}`)
   .then((result) => {
     callback(null, result);
   })
@@ -11,20 +14,20 @@ const getProductByID = (id, callback) => {
 }
 
 const getProducts = (callback) => {
-  postgresDB.query()
+  pool.query()
 };
 
 
 const getStyles = (id, callback) => {
-  postgresDB.query()
+  pool.query()
 }
 
 const getFeatures = (id, callback) => {
-  postgresDB.query()
+  pool.query()
 }
 
 const getRelated = (id, callback) => {
-  postgresDB.query()
+  pool.query()
 }
 
 

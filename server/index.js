@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const DB = require('./database/db.js')
+const DB = require('../database/db.js')
 
 app.use(express.urlencoded({
   extended: true
@@ -63,7 +63,7 @@ app.get('/Related', (req, res) => {
 
 
 
-const port = 5432;
+const port = 1111;
 app.list(port, () => {
   console.log('Listening on Port: ', port);
 })
