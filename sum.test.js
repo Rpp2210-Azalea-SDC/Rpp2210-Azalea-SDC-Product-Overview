@@ -59,6 +59,19 @@ describe("postgres database test", () => {
     expect(res.rows[0].related_ids).toEqual([2, 3, 8, 7]);
   });
 
+  it("tests the styles database linked with photos", async () => {
+    const res = await client.query(`SELECT styles.*,
+      json_agg(json_build_object('thumbnail_url', photos.thumbnail_url, 'url', photos.url)) AS photos,
+      json_object_agg(skus.sku_id, json_build_object('quantity', skus.quantity, 'size', skus.size)) as skus
+    FROM styles
+    INNER JOIN photos on styles.style_id = photos.style_id
+    INNER JOIN skus on styles.style_id = skus.style_id
+    WHERE styles.product_id = 1 AND photos.style_id = styles.style_id AND skus.style_id = styles.style_id
+    GROUP BY styles.style_id`);
+    console.log(res.rows);
+    expect(res.rows.length).toBeGreaterThan(0);
+  }, 30000);
+
   afterAll(() => {
     client.end();
   });

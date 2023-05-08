@@ -37,7 +37,13 @@ const getProducts = (callback) => {
 };
 
 const getStyles = (id, callback) => {
-  pool.query(``);
+  pool.query(
+    `SELECT styles.*, json_agg(json_build_object('thumbnail_url', photos.thumbnail_url, 'url', photos.url)) AS photos
+    FROM styles
+    INNER JOIN photos ON styles.style_id = photos.style_id
+    WHERE styles.product_id = 1 AND photos.style_id = styles.style_id
+    GROUP BY styles.style_id`
+  );
 };
 
 const getFeatures = (id, callback) => {
