@@ -4,7 +4,7 @@ const getProductByID = (id, callback) => {
   const pool = postgresDB();
   pool
     .query(
-      `SELECT
+      `select
       product.*,
       json_agg(
         json_build_object(
@@ -12,9 +12,9 @@ const getProductByID = (id, callback) => {
           'value', features.value
         )
       ) AS features
-      FROM product JOIN features ON product.product_id = features.product_id
-      WHERE product.product_id = ${id}
-      GROUP BY product.product_id
+      from product join features on product.product_id = features.product_id
+      where product.product_id = ${id}
+      group by product.product_id
     `
     )
     .then((result) => {
@@ -37,11 +37,23 @@ const getProducts = (callback) => {
 };
 
 const getStyles = (id, callback) => {
-  pool.query();
+  pool.query(``);
 };
 
 const getFeatures = (id, callback) => {
-  pool.query();
+  pool.query(
+    `select
+    product.*,
+    json_agg(
+    json_build_object(
+      'feature', features.feature,
+      'value', features.value
+    )
+    ) AS features
+    from product join features on product.product_id = features.product_id
+    where product.product_id = ${id}
+    group by product.product_id`
+  );
 };
 
 const getRelated = (id, callback) => {
