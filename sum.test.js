@@ -96,7 +96,7 @@ describe("postgres database test", () => {
           )
       ) AS results
     FROM styles
-    WHERE styles.product_id = 1 GROUP BY styles.product_id;
+    WHERE styles.product_id = 942182 GROUP BY styles.product_id;
 `);
     console.log(res.rows[0].results);
     expect(res.rows.length).toBeGreaterThan(0);
