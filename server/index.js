@@ -21,7 +21,7 @@ async function setRedis(key, value) {
   }
 }
 
-fetchFromRedis("styles-9421");
+// fetchFromRedis("styles-9421");
 
 const app = express();
 
@@ -113,6 +113,10 @@ app.get("/Related", async (req, res) => {
       }
     });
   }
+});
+
+app.get("/loaderio-bf095b6624d839f8d76b5cd325d92c94.txt", (req, res) => {
+  res.send("loaderio-bf095b6624d839f8d76b5cd325d92c94");
 });
 
 const port = 8080;

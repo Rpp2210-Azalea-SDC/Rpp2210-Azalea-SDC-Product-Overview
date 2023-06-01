@@ -12,7 +12,7 @@ const redisClient = () => {
   client.connect();
 
   client.on("connect", (result) => {
-    console.log("Connected to Redis!!!");
+    console.log("Connected to Redis!!!", process.env.RedisHost);
   });
 
   return client;

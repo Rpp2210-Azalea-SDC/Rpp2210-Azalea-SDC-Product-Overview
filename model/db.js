@@ -1,8 +1,8 @@
 const pool = require("./postgreSQL.js");
 
-const getProductByID = (id, callback) => {
-  pool
-    .query(
+async function getProductByID(id, callback) {
+  try {
+    const result = await pool.query(
       `select
       product.*,
       json_agg(
@@ -15,35 +15,29 @@ const getProductByID = (id, callback) => {
       where product.id = ${id}
       group by product.id;
     `
-    )
-    .then((result) => {
-      console.log("results ===>", result.rows[0]);
-      callback(null, result.rows[0]);
-    })
-    .catch((err) => {
-      console.log("error ===>", err);
-      callback(err, null);
-    });
-};
+    );
+    callback(null, result.rows[0]);
+  } catch (err) {
+    console.log("error ===>", err);
+    callback(err, null);
+  }
+}
 
-const getProducts = (callback) => {
-  pool
-    .query(
+async function getProducts(callback) {
+  try {
+    const result = await pool.query(
       `SELECT id, name, slogan, description, category, default_price FROM product LIMIT 5;`
-    )
-    .then((result) => {
-      console.log("results products ===>", result.rows);
-      callback(null, result.rows);
-    })
-    .catch((err) => {
-      console.log("error ===>", err);
-      callback(err, null);
-    });
-};
+    );
+    callback(null, result.rows);
+  } catch (err) {
+    console.log("error ===>", err);
+    callback(err, null);
+  }
+}
 
-const getStyles = (id, callback) => {
-  pool
-    .query(
+async function getStyles(id, callback) {
+  try {
+    const result = await pool.query(
       `
       SELECT
       styles.product_id,
@@ -80,20 +74,17 @@ const getStyles = (id, callback) => {
     FROM styles
     WHERE styles.product_id = ${id} GROUP BY styles.product_id;
 `
-    )
-    .then((result) => {
-      console.log("results ===> style", result.rows[0]);
-      callback(null, result.rows[0]);
-    })
-    .catch((err) => {
-      console.log("error ===>", err);
-      callback(err, null);
-    });
-};
+    );
+    callback(null, result.rows[0]);
+  } catch (err) {
+    console.log("error ===>", err);
+    callback(err, null);
+  }
+}
 
-const getFeatures = (id, callback) => {
-  pool
-    .query(
+async function getFeatures(id, callback) {
+  try {
+    const result = await pool.query(
       `select
     product.*,
     json_agg(
@@ -105,33 +96,27 @@ const getFeatures = (id, callback) => {
     from product join features on product.id = features.product_id
     where product.id = ${id}
     group by product.id;`
-    )
-    .then((result) => {
-      console.log("results features ===>", result.rows[0]);
-      callback(null, result.rows[0]);
-    })
-    .catch((err) => {
-      console.log("error ===>", err);
-      callback(err, null);
-    });
-};
+    );
+    callback(null, result.rows[0]);
+  } catch (err) {
+    console.log("error ===>", err);
+    callback(err, null);
+  }
+}
 
-const getRelated = (id, callback) => {
-  pool
-    .query(
+async function getRelated(id, callback) {
+  try {
+    const result = await pool.query(
       `SELECT json_agg(related_id) AS related_ids
       FROM related
       WHERE product_id = ${id}`
-    )
-    .then((result) => {
-      console.log("results related ===>", result.rows[0].related_ids);
-      callback(null, result.rows[0].related_ids);
-    })
-    .catch((err) => {
-      console.log("error ===>", err);
-      callback(err, null);
-    });
-};
+    );
+    callback(null, result.rows[0].related_ids);
+  } catch (err) {
+    console.log("error ===>", err);
+    callback(err, null);
+  }
+}
 
 module.exports = {
   getProducts,
