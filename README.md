@@ -25,7 +25,8 @@ Improved PostgreSQL DB queries speed from 25s to 0.30ms by analyzing execution p
 
 Migrated over the Data to AWS EC2 Instance through PostgreSQL built in migration function.
 
-![image](https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/74ea032a-f612-429a-a6a2-86fb52009bbe)
+![image](https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/dcf48bfd-0e4d-43e1-bbba-2038171cdcb6)
+
 ![image](https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/acbdc59a-4c76-45ce-834a-ce3ecb3d4d62)
 
 
