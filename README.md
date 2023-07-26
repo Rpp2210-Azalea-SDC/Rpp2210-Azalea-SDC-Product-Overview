@@ -16,28 +16,30 @@ PostgreSQL server can handle multiple concurrent connections from clients.
 
 Created ETL to unify data being imported into DB locally.
 
-![image](https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/b8bdec6a-b521-4223-8859-336de5db778e)
+![image](https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/02792552-1bdc-4a9d-be55-d0fb2c8c34ec)
 
-Improved PostgreSQL DB queries speed from 25s to 0.30ms by analyzing execution plans and implementing indexes and aggregations
+Improved PostgreSQLqueries speed from 25s to 0.30ms by analyzing execution plans and implementing indexes and aggregations
 
-![image](https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/10fca92a-56f6-4723-87a5-451329db0763)
+![image](https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/ec0d91dc-21c3-425d-810e-51f81924ac16)
 
 Migrated over the Data to AWS EC2 Instance through PostgreSQL built-in migration function.
 
-![image](https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/dcf48bfd-0e4d-43e1-bbba-2038171cdcb6)
+![image](https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/d70f99e5-9b62-48b8-acec-a454ed313bf9)
 
 Successfully imported Data to AWS EC2 instance!
 
-<img src="https://drive.google.com/file/d/1D--4fbjtFsRQVsHBRevdSOWdyXWfGA9y/view?usp=sharing" alt="aws"></img>
+![image](https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/87f8604b-cd0c-4bc5-bb36-76d63f43490d)
 
 Scaled application to sustain 4000 RPS by horizontally scaling with NGINX through 4 AWS instances and Redis caching
 
-![image](https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/558997e0-0bbd-459c-94c7-175e0669b369)
+![image](https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/ea056ce2-d550-449f-9dc1-5e8a30cb30bf)
 
-![image](https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/cb8c7ed3-9a47-4d91-b29d-1f6dc3e0dfa9)
+![image](https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/96c3a332-4c45-4441-89be-62285cb09574)
 
 Performance Testing:
 
-![image](https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/1c5ed368-42c7-4799-82e0-4394d123a430)
+![image](https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/6ef6b59d-0a92-4a81-8818-1b47a99ba142)
+
+![image](https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/210d2f52-3b03-4171-9ec6-8cd13a7e86e2)
 
 ![image](https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/301be2a7-2060-4b44-9c90-98e8ba32be7a)
