@@ -12,7 +12,6 @@ Created Database and Tables to match Schema.
 
 ![image](https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/51ce1961-0eac-4f83-b412-9b5c14d9f623)
 
-
 PostgreSQL server can handle multiple concurrent connections from clients.
 
 Created ETL to unify data being imported into DB locally.
@@ -23,14 +22,16 @@ Improved PostgreSQL DB queries speed from 25s to 0.30ms by analyzing execution p
 
 ![image](https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/10fca92a-56f6-4723-87a5-451329db0763)
 
-Migrated over the Data to AWS EC2 Instance through PostgreSQL built in migration function.
+Migrated over the Data to AWS EC2 Instance through PostgreSQL built-in migration function.
 
 ![image](https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/dcf48bfd-0e4d-43e1-bbba-2038171cdcb6)
 
+Successfully imported Data to AWS EC2 instance!
+
 ![image](https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/acbdc59a-4c76-45ce-834a-ce3ecb3d4d62)
 
-
 Scaled application to sustain 4000 RPS by horizontally scaling with NGINX through 4 AWS instances and Redis caching
+
 ![image](https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/558997e0-0bbd-459c-94c7-175e0669b369)
 
 ![image](https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/cb8c7ed3-9a47-4d91-b29d-1f6dc3e0dfa9)
