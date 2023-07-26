@@ -2,9 +2,7 @@
 
 Refactored monolithic ecommerce backend microservice optimized to support high traffic 
 
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) 	![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) 	![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
-
-<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='LOADER.IO' src='https://img.shields.io/badge/LOADER.IO-100000?style=for-the-badge&logo=LOADER.IO&logoColor=866060&labelColor=FF80F6&color=FF5DEC'/></a> K6 
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) 	![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) 	![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)<a style='margin-left: 10px;' href='https://github.com/shivamkapasia0' target="_blank" s><img alt='LOADER.IO' src='https://img.shields.io/badge/LOADER.IO-100000?style=for-the-badge&logo=LOADER.IO&logoColor=866060&labelColor=FF80F6&color=FF5DEC'/></a><a href='https://github.com/shivamkapasia0' style='margin-left: 10px;' target="_blank"><img alt='' src='https://img.shields.io/badge/K6-100000?style=for-the-badge&logo=&logoColor=866060&labelColor=FF80F6&color=FFAF24'/></a>
 
 Structured Schema used to plan out the Database Structure:
 
