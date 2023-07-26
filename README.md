@@ -6,7 +6,6 @@ Mongoose(Non-relational) | PostgreSQL(Relational)- Slow | Loader.io | K6 | AWS |
 
 Initial Mongoose Schema:
 
-![image](https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/86ad15de-56e3-4ff1-b130-d62e1389d682)
 <img src="https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/86ad15de-56e3-4ff1-b130-d62e1389d682" width="200" height="200"/>
 Structured Schema used to plan out the Database Structure:
 
