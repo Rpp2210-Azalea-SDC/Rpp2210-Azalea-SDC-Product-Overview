@@ -42,4 +42,3 @@ Performance Testing:
 
 ![image](https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/210d2f52-3b03-4171-9ec6-8cd13a7e86e2)
 
-![image](https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/301be2a7-2060-4b44-9c90-98e8ba32be7a)
