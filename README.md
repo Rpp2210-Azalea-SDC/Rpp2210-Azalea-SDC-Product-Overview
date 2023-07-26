@@ -10,7 +10,7 @@ Structured Schema used to plan out the Database Structure:
 
 Created Database and Tables to match Schema.
 
-![image](https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/51ce1961-0eac-4f83-b412-9b5c14d9f623)
+![Sheetshot](https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/51ce1961-0eac-4f83-b412-9b5c14d9f623)
 
 PostgreSQL server can handle multiple concurrent connections from clients.
 
