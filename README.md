@@ -6,11 +6,11 @@ Mongoose(Non-relational) | PostgreSQL(Relational)- Slow | Loader.io | K6 | AWS |
 
 Structured Schema used to plan out the Database Structure:
 
-![image](https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/72963a4a-ba86-4f0c-820e-dc9cf773d772)
+![image](https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/be35a3d7-5684-4eef-b082-19317bf26491)
 
 Created Database and Tables to match Schema.
 
-![image](https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/51ce1961-0eac-4f83-b412-9b5c14d9f623)
+![image](https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/bb0efdc2-ba23-4ac6-a712-c9daa3985e8d)
 
 PostgreSQL server can handle multiple concurrent connections from clients.
 
