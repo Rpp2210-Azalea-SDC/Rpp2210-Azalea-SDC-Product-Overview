@@ -32,7 +32,7 @@ Successfully imported Data to AWS EC2 instance!
 
 Scaled application to sustain 4000 RPS by horizontally scaling with NGINX through 4 AWS instances and Redis caching
 
-![image](https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/ea056ce2-d550-449f-9dc1-5e8a30cb30bf)
+![image](https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/ea6ab681-3e80-4ee2-be4f-6e929925b3fd)
 
 ![image](https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/96c3a332-4c45-4441-89be-62285cb09574)
 
