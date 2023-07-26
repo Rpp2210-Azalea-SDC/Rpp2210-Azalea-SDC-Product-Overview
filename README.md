@@ -28,7 +28,7 @@ Migrated over the Data to AWS EC2 Instance through PostgreSQL built-in migration
 
 Successfully imported Data to AWS EC2 instance!
 
-![image](https://drive.google.com/file/d/1D--4fbjtFsRQVsHBRevdSOWdyXWfGA9y/view?usp=sharing)
+<img src="https://drive.google.com/file/d/1D--4fbjtFsRQVsHBRevdSOWdyXWfGA9y/view?usp=sharing" alt="aws"></img>
 
 Scaled application to sustain 4000 RPS by horizontally scaling with NGINX through 4 AWS instances and Redis caching
 
