@@ -2,7 +2,7 @@
 
 Refactored monolithic ecommerce backend microservice optimized to support high traffic 
 
-Mongoose(Non-relational) | PostgreSQL(Relational)- Slow | Loader.io | K6 | AWS | NGINX | Redis 
+Mongoose(Non-relational) | PostgreSQL(Relational) | Loader.io | K6 | AWS | NGINX | Redis 
 
 Structured Schema used to plan out the Database Structure:
 
