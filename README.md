@@ -17,7 +17,7 @@ PostgreSQL server can handle multiple concurrent connections from clients.
 
 Created ETL to unify data being imported into DB locally.
 
-![image](https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/8b9829b5-31c0-4d09-95a8-e2a8af08c1b4)
+![image](https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/b8bdec6a-b521-4223-8859-336de5db778e)
 
 Improved PostgreSQL DB queries speed from 25s to 0.30ms by analyzing execution plans and implementing indexes and aggregations
 
