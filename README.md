@@ -28,7 +28,7 @@ Migrated over the Data to AWS EC2 Instance through PostgreSQL built-in migration
 
 Successfully imported Data to AWS EC2 instance!
 
-![image](https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/acbdc59a-4c76-45ce-834a-ce3ecb3d4d62)
+![image](https://drive.google.com/file/d/1D--4fbjtFsRQVsHBRevdSOWdyXWfGA9y/view?usp=sharing)
 
 Scaled application to sustain 4000 RPS by horizontally scaling with NGINX through 4 AWS instances and Redis caching
 
