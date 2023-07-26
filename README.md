@@ -1,4 +1,4 @@
-# Rpp2210-Azalea-SDC-Product
+# Azalea SDC Product
 
 Refactored monolithic ecommerce backend microservice optimized to support high traffic 
 
