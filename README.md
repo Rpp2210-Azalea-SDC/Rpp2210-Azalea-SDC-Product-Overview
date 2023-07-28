@@ -9,6 +9,10 @@ Refactored monolithic ecommerce backend microservice optimized to support high t
 </a><a href='https://github.com/shivamkapasia0' style='display: inline-block; margin-left: 10px;' target="_blank"><img alt='' src='https://img.shields.io/badge/K6-100000?style=for-the-badge&logo=&logoColor=866060&labelColor=FF80F6&color=FFAF24'/></a>
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
+### Connect with me:
+
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/alvin-ruan)
+
 Structured Schema used to plan out the Database Structure:
 
 ![image](https://github.com/Rpp2210-Azalea-SDC/Rpp2210-Azalea-SDC-Product-Overview/assets/113706094/be35a3d7-5684-4eef-b082-19317bf26491)
